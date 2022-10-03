@@ -74,8 +74,8 @@ const LineChart = ({
                         hide={ !showYAxis }
                         axisLine={ false }
                         tickLine={ false }
-                        type="number"
                         domain={ ['auto', 'auto'] }
+                        type="number"
                         tick={ { transform: 'translate(-3, 0)' } } 
                         style={ {
                             fontSize: '12px',
