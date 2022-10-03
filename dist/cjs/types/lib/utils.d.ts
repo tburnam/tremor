@@ -1,0 +1,15 @@
+import React from 'react';
+import { BaseColorTheme } from './colors';
+import { Color, DeltaType, Importance, Size, ValueFormatter } from './inputTypes';
+export declare const isBaseColor: (baseColor: Color) => boolean;
+export declare const getColorTheme: (baseColor: Color, defaultColor?: Color) => BaseColorTheme;
+export declare const isValidSize: (size: Size) => boolean;
+export declare const isValidDeltaType: (deltaType: DeltaType) => boolean;
+export declare const isValidImportance: (importance: Importance) => boolean;
+export declare const mapInputsToDeltaType: (deltaType: string, isIncreasePositive: boolean) => string;
+export declare const defaultValueFormatter: ValueFormatter;
+export declare const useOnClickOutside: (ref: React.RefObject<HTMLDivElement>, handler: (event: any) => void) => void;
+export declare const removeValueFromArray: (value: any, array: any[]) => any[];
+export declare const isValueInArray: (value: any, array: any[]) => boolean;
+export declare const stringIsNumeric: (str: string | undefined) => boolean;
+export declare const stringEndsWithNumber: (str: string) => boolean;
